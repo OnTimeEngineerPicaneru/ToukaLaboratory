@@ -1,0 +1,138 @@
+body {
+    font-family:  'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif; /* フォントを指定 */
+    line-height: 1.8;
+    color: #9c40d9;
+    background: color #9c40d9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 16px rgba(231, 104, 104, 0.1);
+}
+
+header, footer{
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    color: #9c40d9;
+    margin-bottom: 0.5em;
+}
+
+footer {
+    margin-top: 30px;
+    color: #9c40d9;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #e2dfe4;
+    border-radius: 5px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #9c40d9;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    color: 0053b3;
+    background-color: #d89bee;
+    border-radius: 5px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #9c40d9;
+    border-bottom: 2px solid #d89bee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+}
+
+input[type="text"],
+input[type="email"],
+textarea
+select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d89bee;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+botton {
+    background-color: #d89dee;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button[type="reset"] {
+    background-color: #d89bee;
+}
+
+button[type="reset"] {
+    opacity: 0.9;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+hr {
+    display: none;
+}
