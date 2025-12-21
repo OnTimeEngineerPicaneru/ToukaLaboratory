@@ -1,0 +1,110 @@
+body {
+    font-family: 'Helvetika Nueu', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+    line-height: 1.8;
+    color: #000000;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+header footer{
+    text-align: center;
+    padding: 20px 0;    
+}
+h1{
+    color: #79BD9A;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+footer{
+    margin-top: 30px;
+    color: #6c757d;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #79BD9A;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+nav ul li a:hover{
+    color: #b0d7d5;
+    background-color: #dee2e6;
+    border-radius: 5px;
+}
+section{
+    margin-bottom: 40px;
+}
+h2{
+    color: #343a40;
+    border-bottom: 2px solid #79BD9A;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td{
+    border: 1px solid #60CAAD;
+    padding: 12px;
+    text-align: left;
+}
+th{
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+tbody tr:nth-child(odd){
+    background-color: #BFE9DB;
+}
+form{
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input[type="text"],
+input[type="email"],
+textarea,
+select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+button[type="reset"]{
+    background-color: #6c757d;
+}
+button :hover{
+    opacity: 0.9;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+hr{
+    display: none;
+}
